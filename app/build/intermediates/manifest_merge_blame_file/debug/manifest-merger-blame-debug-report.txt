@@ -1,0 +1,51 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ivydad.module.android_archor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:6:5-20:19
+14        android:allowBackup="true"
+14-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/guoyong/.gradle/caches/transforms-2/files-2.1/fc785d3673ca7ec4009108d2721750b3/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:12:9-40
+23        <activity android:name="com.ivydad.module.android_archor.MainActivity" >
+23-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:13:9-19:20
+23-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:13:19-47
+24            <intent-filter>
+24-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:15:17-69
+25-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:17:17-77
+27-->/Users/guoyong/Desktop/github_test/ImageView_Anchor/app/src/main/AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

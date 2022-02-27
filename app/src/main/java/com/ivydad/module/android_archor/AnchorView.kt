@@ -29,7 +29,7 @@ class AnchorView : FrameLayout{
     fun initView(context: Context){
         containerImageView = AppCompatImageView(context)
         containerImageView?.scaleType = ImageView.ScaleType.FIT_CENTER
-        var params = FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT,FrameLayout.LayoutParams.MATCH_PARENT)
+        var params = LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.MATCH_PARENT)
         addView(containerImageView,params)
     }
 
@@ -81,7 +81,7 @@ class AnchorView : FrameLayout{
 
         var anchorImg = AppCompatImageView(context)
         /*todo 这里的宽高是anchor 的宽高 可以自己修改*/
-        var params = FrameLayout.LayoutParams(anchorWidth,anchorHeight)
+        var params = LayoutParams(anchorWidth,anchorHeight)
         addView(anchorImg,params)
         anchorImg.translationX = point.x.toFloat()
         anchorImg.translationY = point.y.toFloat()
